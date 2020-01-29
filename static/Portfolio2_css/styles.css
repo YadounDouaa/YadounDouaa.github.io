@@ -62,7 +62,7 @@ a, button{ display: inline-block; text-decoration: none; color: inherit; line-he
 
 a:focus, a:active, a:hover,
 button:focus, button:active, button:hover,
-a b.light-color:hover{ text-decoration: none; color: rgb(0, 153, 204); }
+a b.light-color:hover{ text-decoration: none; color: #013A4A; }
 
 b{ font-weight: 600; }
 
@@ -91,7 +91,7 @@ b.max-bold{ font-weight: 700; }
 .section .heading{ margin-bottom: 60px; display: inline-block; }
 
 .section .heading:before{ content:''; height: 10px; width: 50px; border-radius: 5px;
-	margin: 0 auto 20px; display: block; background: rgb(0, 153, 204); }
+	margin: 0 auto 20px; display: block; background: #013A4A; }
 	
 .margin-t-10{ margin-top: 10px; }
 .margin-t-30{ margin-top: 30px; }
@@ -171,7 +171,7 @@ b.max-bold{ font-weight: 700; }
 
 .counter{ position: relative; }
 	
-.counter .title{ color: rgb(0, 153, 204); text-align: right; margin-right: 130px; }
+.counter .title{ color: rgb(3, 3, 3); text-align: right; margin-right: 130px; }
 
 .counter .desc{ position: absolute; bottom: 4px; right: 0px; width: 110px; }
 
@@ -198,11 +198,11 @@ b.max-bold{ font-weight: 700; }
 
 .portfolio-section{ position: relative; }
 
-.portfolio-section .portfolioFilter{ margin-bottom: 60px; color: #666; }
+.portfolio-section .portfolioFilter{ margin-bottom: 60px; color: rgb(10, 10, 10); }#FFFFFF
 
 .portfolio-section .portfolioFilter a{ margin: 10px 10px 0 0; }
 
-.portfolio-section .portfolioFilter a.current{ color: rgb(0, 153, 204); }
+.portfolio-section .portfolioFilter a.current{ color: #013A4A; }
 
 .portfolio-section .portfolioContainer{ margin-left: -15px; margin-right: -15px; }
 
@@ -219,7 +219,7 @@ b.max-bold{ font-weight: 700; }
 .education-wrapper{ position: relative; overflow: hidden; text-align: center; }
 
 .education-wrapper:after{ content:''; position: absolute; top: 8px; bottom: 0; left: 50%;
-	margin-left: -1px; width: 2px; background: #333; }
+	margin-left: -1px; width: 2px; background: #fff; }
 
 .education-wrapper .education{ width: 50%; clear: both; position: relative; margin-top: -30px; }
 
@@ -231,7 +231,7 @@ b.max-bold{ font-weight: 700; }
 
 .education-wrapper .education:after{ content:''; position: absolute; top: 8px; width: 16px; 
 	height: 16px; border-radius: 10px; z-index: 1;
-	box-shadow: 0 0 0 8px rgba(0, 153, 204, 0.4); background: rgb(0, 153, 204); }
+	box-shadow: 0 0 0 8px rgba(0, 153, 204, 0.4); background: #013A4A; }
 	
 .education-wrapper .education.left:after{ right: -8px; }
 
@@ -249,7 +249,7 @@ b.max-bold{ font-weight: 700; }
 	right: 0; background: rgba(0,0,0, .8); }
 	
 .quoto-section .icon{ margin-bottom: 20px; height: 40px; width: 40px; line-height: 40px; 
-	border-radius: 30px; background: rgb(0, 153, 204); color: #fff; }
+	border-radius: 30px; background: #013A4A; color: #fff; }
 
 	
 
@@ -258,7 +258,7 @@ b.max-bold{ font-weight: 700; }
 --------------------------------- */
 
 .skills-section .expert{ margin-top: 10px; display: inline-block; padding: 1px 25px 0; 
-	border-radius: 5px; background: rgb(0, 153, 204); color: #fff; }
+	border-radius: 5px; background: #013A4A; color: #fff; }
 
 	
 /* LINE PROGRESSBAR */
@@ -266,9 +266,9 @@ b.max-bold{ font-weight: 700; }
 .line-progress{ position: relative; padding-bottom: 25px; }
 
 .line-progress .progressbar-text{ position: absolute; bottom: 0; right: 0; font-size: 1.1em; 
-	font-weight: 500; color: #777!important; }
+	font-weight: 500; color: #0F0F0F!important; }
 
-.line-progress .progress-title{ position: absolute; bottom: 0; left: 0; color: #777; }
+.line-progress .progress-title{ position: absolute; bottom: 0; left: 0; color: #FFFFFF; }
 
 
 /* REDIAL PROGRESS SECTION */
@@ -282,7 +282,7 @@ b.max-bold{ font-weight: 700; }
 .radial-progress{ position: relative; max-width: 170px; margin: 0 auto; }
 
 .radial-progress .progressbar-text{ font-size: 2.2em; font-weight: 500; 
-	padding-bottom: 25px!important; color: rgb(0, 153, 204)!important; }
+	padding-bottom: 25px!important; color: #FFFFFF important; }
 
 .radial-progress .progressbar-text:after{ content:'%'; }
 
@@ -295,5 +295,5 @@ b.max-bold{ font-weight: 700; }
 10. FOOTER
 --------------------------------- */
 
-.copyright{ text-align: center; padding: 30px 0; background: #28023D; }
+.copyright{ text-align: center; padding: 30px 0; background: #FFFFFF; }
 
